@@ -59,7 +59,7 @@ const Header = () => (
 const Dashboard = () => (
     <div className="p-6 pt-0">
         <h1 className="text-3xl font-bold pb-6">Dashboard</h1>
-        <div className="flex flex-wrap gap-10 mb-6 max-sm:grid max-sm:grid-cols-2">
+        <div className="flex flex-wrap gap-10 mb-6 justify-between max-sm:grid max-sm:grid-cols-2">
             <Card
                 icon={<IoCart className="text-blue-500 text-3xl" />}
                 title="Total Orders"
